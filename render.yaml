@@ -1,0 +1,20 @@
+# Render.com deployment configuration
+# This file tells Render exactly how to build and run the backend
+
+services:
+  - type: web
+    name: vendorvoice-api
+    env: node
+    rootDir: backend
+    buildCommand: npm install
+    startCommand: node app.js
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 10000
+      # Set these manually in Render dashboard:
+      # - key: MONGO_URI
+      #   value: mongodb+srv://...
+      # - key: JWT_SECRET
+      #   value: your_secret_here

@@ -14,7 +14,7 @@ npm install
 cp .env.example .env
 # Fill in MONGO_URI and JWT_SECRET in .env
 npm run dev
-# → http://localhost:5000/api/health ✅
+# → http://localhost:5000/api/health 
 ```
 
 ### 3. Frontend
@@ -22,12 +22,12 @@ npm run dev
 cd frontend
 npm install
 npm run dev
-# → http://localhost:5173 ✅
+# → http://localhost:5173 
 ```
 
 ### 4. First time setup (after logging in)
-- Go to ⚖️ Legal tab → click "Populate DB" to seed legal articles
-- Go to 📍 Zones tab → click "+ Add Zone" to create vending zones
+- Go to  Legal tab → click "Populate DB" to seed legal articles
+- Go to  Zones tab → click "+ Add Zone" to create vending zones
 
 ---
 
