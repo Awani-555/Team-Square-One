@@ -78,6 +78,8 @@ POST /api/legal/seed   (run once to populate)
 - Start: `node app.js`
 - Add env vars from .env
 
+- https://team-square-one-rust.vercel.app/
+
 ### Frontend → Vercel
 - Framework: Vite
 - Add env: `VITE_API_URL=https://your-backend.onrender.com`
