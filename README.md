@@ -1,33 +1,11 @@
 # 🛒 Vikreta Vikas — Har Vyapaari ka Sahara
 
-## QUICK START (5 minutes)
 
-### 1. MongoDB Atlas
-1. Go to mongodb.com/atlas → free account → free M0 cluster
-2. Network Access → Allow from anywhere (0.0.0.0/0)
-3. Connect → Drivers → copy the URI string
+Vikreta Vikas is a digital empowerment platform built to support street vendors with tools they’ve long been denied :data, financial clarity, legal awareness, and community support. Street vendors are essential to urban life, yet they often work without structure, protection, or access to technology. Many rely on guesswork to plan sales, lack financial records, and face uncertainty around safe vending zones and their rights.
 
-### 2. Backend
-```bash
-cd backend
-npm install
-cp .env.example .env
-# Fill in MONGO_URI and JWT_SECRET in .env
-npm run dev
-# → http://localhost:5000/api/health 
-```
+Vikreta Vikas helps transform this reality. The platform provides demand prediction to reduce waste, a simple financial tracker for profit visibility, information on safe vending zones, a community board for collective support, and an accessible legal and safety knowledge hub. Together, these features give vendors confidence, stability, and a stronger voice.
 
-### 3. Frontend
-```bash
-cd frontend
-npm install
-npm run dev
-# → http://localhost:5173 
-```
-
-### 4. First time setup (after logging in)
-- Go to  Legal tab → click "Populate DB" to seed legal articles
-- Go to  Zones tab → click "+ Add Zone" to create vending zones
+This project is not about replacing street vending ,it’s about uplifting it. Vikreta Vikas aims to bridge the gap between informal work and digital support, helping vendors grow with dignity and security.
 
 ---
 
